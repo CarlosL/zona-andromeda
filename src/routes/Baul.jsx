@@ -1,14 +1,16 @@
 import React from 'react'
 import Nav from '../components/Nav.jsx'
-import { Link } from 'react-router-dom'
+import Escritos from '../components/Escritos.jsx'
+import './baul.css'
 
 function Baul() {
 
     return (
         <>
+        <section id='baul'>
         <Nav />
-        <h1>Baúl</h1>
-        <Link to={'/'}>Back</Link>
+        <Escritos />
+        </section>
         </>
     )
 }
