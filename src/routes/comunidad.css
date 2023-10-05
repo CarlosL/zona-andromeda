@@ -6,6 +6,25 @@
     min-height: 100vh;
 }
 
-h1 {
-    font-size: 100px;
+.container-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row-social {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin: 12vh 4vh;
+    height: 700px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.logo-social {
+    width: 80%;
 }

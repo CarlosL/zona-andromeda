@@ -1,0 +1,27 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* display: flex; */
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+.logo-nav {
+    width: 280px;
+    padding: 6px;
+    float: left;
+}
+
+.ul-nav {
+    padding: 20px 6% 0 0;
+    float: right;
+    font-size: 20px;
+}
+
+.ul-nav li:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}

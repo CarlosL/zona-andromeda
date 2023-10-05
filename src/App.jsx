@@ -8,17 +8,17 @@ function App() {
   return (
     <div className='home'>
       <img className='logo' src={logo} alt='Zona Andromeda logo' />
-      <nav>
+      <div className='nav-home'>
         <ul>
           <li>
-            <a href='/Comunidad'>Comunidad</a>
+            <Link to={'/Comunidad'}>Comunidad</Link>
           </li>
           <li>
             <Link to={'/Baul'}>Baúl</Link>
           </li>
             <Link to={'/Nosotros'}>Nosotros</Link>
         </ul>
-      </nav>
+      </div>
     </div>
   )
 }

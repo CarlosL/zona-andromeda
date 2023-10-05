@@ -4,7 +4,6 @@ import App from './App.jsx'
 import Comunidad from './routes/Comunidad.jsx'
 import Baul from './routes/Baul.jsx'
 import Nosotros from './routes/Nosotros.jsx'
-import {NextUIProvider} from "@nextui-org/react"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 
@@ -29,8 +28,6 @@ const router = createBrowserRouter ([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <NextUIProvider>
       <RouterProvider router={router} />
-    </NextUIProvider>
   </React.StrictMode>,
 )
