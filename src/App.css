@@ -8,22 +8,21 @@
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-body {
+.home {
   background: url(./assets/Background_logo.png) no-repeat;
   background-size: cover;
   background-position: center;
+  min-width: 100%;
+  min-height: 100vh;
 }
 
 .logo {
-  width: 80%;
-  min-width: 320px;
-  padding: 1.5em;
+  width: 60%;
+  min-width: 420px;
+  margin: 26vh 0 0 0;
 }
 
 nav {
@@ -38,7 +37,8 @@ ul {
   gap: 10%;
 }
 
-ul a {
+ul li {
+  cursor: pointer;
   color: white;
   transition: .2s;
   -webkit-transition: .2s;
@@ -47,6 +47,6 @@ ul a {
   -o-transition: .2s;
 }
 
-ul a:hover {
+li:hover {
   color: rgba(255, 255, 255, 0.726);
 }
